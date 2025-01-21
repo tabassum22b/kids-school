@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+
+    font-style: normal;
+}
+
+
+/* shared styles */
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.navcolor {
+    color: #111111;
+}
+
+body {
+
+    margin: 0;
+    background: rgb(247, 247, 247);
+}
+
+/* nav styles */
+header {
+    padding: 20px;
+}
+
+.nav-bar {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.brand {
+    align-items: center;
+    gap: 11px;
+    margin-left: 186px;
+    font-weight: 700;
+    Font-size: 32px;
+}
+
+.brand img {
+    height: 50px;
+}
+
+.nav-links {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.nav-items {
+    list-style: none;
+    padding: 0;
+    margin-right: 20px;
+    margin-left: 20px;
+
+    align-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    Font-weight: 500;
+    font-size: 20px;
+
+}
+
+/* link styles */
+.or {
+    color: rgb(254, 163, 1);
+    margin-left: 100px;
+}
+
+.b {
+    color: rgb(1, 172, 253);
+}
+
+.t {
+    color: rgb(5, 212, 223);
+}
+
+.v {
+    color: rgb(93, 88, 239);
+
+}
+
+button {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 12px;
+    border: none;
+    background: rgb(254, 163, 1);
+    font-family: "Quicksand", serif;
+    padding: 10px;
+    width: 197px;
+    margin-right: 170px;
+    cursor: pointer;
+}
+
+/* banner styles */
+
+.banner-container {
+    max-width: 1158px;
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.banner-content {
+    flex: 1;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.banner-heading {
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#one {
+    color: rgb(254, 163, 1)
+}
+
+#two {
+    color: rgb(1, 172, 253)
+}
+
+
+.banner-des {
+    color: rgb(17, 17, 17);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.enroll-button {
+    width: 197px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    margin: 24px 0px;
+    transition: background-color 0.3s ease;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.enroll-button:hover {
+    background-color: #0056b3;
+}
+
+.banner-image {
+    text-align: center
+}
+
+.banner-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+
+}
+
