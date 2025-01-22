@@ -291,7 +291,7 @@ button {
     margin-top: 80px;
 }
 
-button {
+.btn-1{
     background-color: orange;
     width: 60px;
     height: 60px;
@@ -308,7 +308,7 @@ button {
 
 }
 
-button:hover {
+ .btn-1:hover {
     transform: scale(1.1);
 }
 
@@ -407,5 +407,24 @@ button:hover {
 
     .enroll-button {
         display: inline;
+        margin-bottom: -40px;
     }
+    /* curriculam responsive */
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0px;
+    }
+    .Standard{
+        font-size: 26px;
+        margin-bottom: 20px;
+        margin-top: -40px;
+ }
+ .cards{
+    flex-direction: column;
+ }
+ .read-more {
+    margin-bottom: 30px;
+ }
 }
