@@ -199,7 +199,8 @@ button {
     font-size: 46px;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 80px;}
+    margin-bottom: 80px;
+}
 
 .cards {
     display: flex;
@@ -289,10 +290,10 @@ button {
     position: relative;
     text-align: center;
     margin-top: 80px;
-    
+
 }
 
-.btn-1{
+.btn-1 {
     background-color: orange;
     width: 60px;
     height: 60px;
@@ -309,20 +310,22 @@ button {
 
 }
 
- .btn-1:hover {
+.btn-1:hover {
     transform: scale(1.1);
 }
 
 /* story section */
 .story-container {
-    background: url('../assets/bg.png'),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    background: url('../assets/bg.png'), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
 }
-.margin{
+
+.margin {
     margin-right: 140px;
     margin-left: 140px;
     padding: 20px;
     text-align: center;
 }
+
 .title {
     color: rgb(0, 0, 0);
     font-size: 46px;
@@ -332,11 +335,8 @@ button {
 
 .stories {
     position: relative;
-    color: rgb(0, 0, 0);
-    font-size: 15.34px;
-    font-weight: 700;
-    text-align: left;
     display: grid;
+    text-align: left;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
@@ -379,7 +379,7 @@ button {
 }
 
 .large-content {
-    margin-top: 400px;
+    margin-top: 380px;
     padding: 20px;
 }
 
@@ -401,17 +401,125 @@ button {
 .story-content {
     padding: 15px;
     text-align: left;
+    margin-top: -40px;
+    color: rgb(0, 0, 0);
+    font-size: 15.34px;
+    font-weight: 700;
 }
 
 .story-content .date {
     color: #6c757d;
     font-size: 0.9rem;
-    margin-bottom: 10px;
+    margin-top: 40px;
 }
-.last{
+
+.last {
     margin-top: 80px;
     margin-bottom: 60px;
 }
+
+/* footer styles */
+footer {
+    background: rgb(1, 172, 253);
+
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.sesh {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 123px 180px 174px 140px;
+    gap: 30px;
+}
+
+.footer-section {
+    margin-right: 70px;
+    margin-left: 60px;
+    margin-top: -30px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo h3 {
+    color: rgb(255, 255, 255);
+    font-size: 42.14px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 39.51px;
+    letter-spacing: 0%;
+}
+
+.footer-logo img {
+    width: 82px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.footer-des {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: -10px;
+
+}
+
+.footer-links h3 {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left
+}
+
+.footer-links {
+    margin-right: 100px;
+    margin-left: 50px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+
+}
+
+.footer-links li {
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-icons h3 {
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    text-decoration: none;
+
+
+}
+
+
+
+
 
 
 @media screen and (max-width:576px) {
@@ -510,22 +618,54 @@ button {
         display: inline;
         margin-bottom: -40px;
     }
+
     /* curriculam responsive */
-    .container{
+    .container {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin: 20px 0px;
     }
-    .Standard{
+
+    .Standard {
         font-size: 26px;
         margin-bottom: 20px;
         margin-top: -40px;
- }
- .cards{
-    flex-direction: column;
- }
- .read-more {
-    margin-bottom: 30px;
- }
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .read-more {
+        margin-bottom: 30px;
+    }
+
+    /* story responsive */
+    .title {
+        font-size: 26px;
+    }
+
+    .large {
+        display: none;
+    }
+
+    .story {
+        width: 200px;
+        height: 211px;
+    }
+
+    .story img {
+        width: 201px;
+        height: 90px;
+    }
+
+    .grid {
+        align-items: center;
+    }
+
+    .margin {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
