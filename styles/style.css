@@ -99,6 +99,12 @@ button {
     margin-right: 170px;
     cursor: pointer;
 }
+.menu-icon{
+    display: none;
+}
+#menu-toggle{
+   display: none;
+}
 
 /* banner styles */
 
@@ -139,6 +145,9 @@ button {
     font-weight: 400;
     margin-bottom: 30px;
 }
+.line-break{
+    display: block;
+}
 
 .enroll-button {
     width: 197px;
@@ -170,3 +179,86 @@ button {
 
 }
 
+@media screen and (max-width:576px) {
+    /* responsive for nav */
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+        display: flex;
+    }
+
+    #menu-toggle:checked~.nav-links {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 1.5em;
+        cursor: pointer;
+        margin-top: 13px;
+    }
+
+     button{
+        display: none;
+    }
+    .brand{
+        margin-left: 20px;
+        margin-right: 20px;
+    
+    }
+    .brand p{
+        visibility: hidden;
+    }
+    .brand img{
+        margin-bottom: 15px;
+    }
+    header{
+        padding: 0;
+        margin-bottom: 0;
+    }
+    #menu-toggle {
+        display: none;
+    }
+    .nav-bar{
+        border-bottom: 0.5px solid rgb(254, 163, 1);
+        
+    } 
+    /* banner responsive */
+    
+    .banner-container {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    .banner-content {
+        text-align: center;
+        margin-right: 0;
+    }
+    .banner-heading{
+        font-size: 2em; 
+    }
+    .banner-des{
+        font-size: 1em;
+        margin-bottom: 0;
+        
+    }
+    .line-break{
+        display: inline;
+    }
+   .enroll-button{
+   display: inline;
+   }
+}
