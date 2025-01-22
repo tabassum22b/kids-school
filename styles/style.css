@@ -289,6 +289,7 @@ button {
     position: relative;
     text-align: center;
     margin-top: 80px;
+    
 }
 
 .btn-1{
@@ -310,6 +311,106 @@ button {
 
  .btn-1:hover {
     transform: scale(1.1);
+}
+
+/* story section */
+.story-container {
+    background: url('../assets/bg.png'),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+}
+.margin{
+    margin-right: 140px;
+    margin-left: 140px;
+    padding: 20px;
+    text-align: center;
+}
+.title {
+    color: rgb(0, 0, 0);
+    font-size: 46px;
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+
+.stories {
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 15.34px;
+    font-weight: 700;
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.story {
+
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    position: relative;
+    width: 290px;
+    height: 301px;
+}
+
+.large {
+    position: relative;
+    width: 540px;
+    height: 630px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.large img {
+    position: absolute;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.story img {
+    position: relative;
+    width: 291px;
+    height: 177px;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.large-content {
+    margin-top: 400px;
+    padding: 20px;
+}
+
+.large-content h2 {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.large-content p {
+    color: rgb(102, 102, 102);
+    font-size: 15.34px;
+    font-weight: 500;
+    text-align: left;
+
+}
+
+.story-content {
+    padding: 15px;
+    text-align: left;
+}
+
+.story-content .date {
+    color: #6c757d;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+.last{
+    margin-top: 80px;
+    margin-bottom: 60px;
 }
 
 
