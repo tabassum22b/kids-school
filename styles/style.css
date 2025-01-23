@@ -3,7 +3,7 @@
 .quicksand-font {
     font-family: "Quicksand", serif;
 
-    font-style: normal;
+     font-style: normal; 
 }
 
 
@@ -18,7 +18,6 @@
 }
 
 body {
-
     margin: 0;
     background: rgb(247, 247, 247);
 }
@@ -98,6 +97,9 @@ button {
     width: 197px;
     margin-right: 170px;
     cursor: pointer;
+}
+button:hover{
+    background-color: rgb(182, 149, 77);
 }
 
 .menu-icon {
@@ -421,7 +423,6 @@ button {
 /* footer styles */
 footer {
     background: rgb(1, 172, 253);
-
     color: white;
     padding: 20px;
     display: flex;
@@ -620,6 +621,10 @@ footer {
     }
 
     /* curriculam responsive */
+    .curriculum {
+        padding: 0px;
+    }
+
     .container {
         display: flex;
         flex-direction: column;
@@ -641,9 +646,14 @@ footer {
         margin-bottom: 30px;
     }
 
+    .button-container {
+        margin-bottom: 0px;
+    }
+
     /* story responsive */
     .title {
         font-size: 26px;
+        margin-left: 20px;
     }
 
     .large {
@@ -660,12 +670,67 @@ footer {
         height: 90px;
     }
 
+    .story-content {
+        font-size: 9.31px;
+    }
+
     .grid {
         align-items: center;
+        gap: 10px;
     }
 
     .margin {
-        margin-left: 20px;
+        margin-left: -10px;
         margin-right: 20px;
     }
+
+    .last {
+        margin-left: 30px;
+    }
+
+    .story-container {
+        margin-top: 0px;
+    }
+
+    /* footer responsive */
+    footer{
+        position: absolute;
+        width: 390px;
+        height: 642px;
+    }
+    .sesh {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 0px;
+        gap: 0px;
+        
+    }
+
+    .footer-section {
+        margin: 0px;
+
+    }
+
+    .footer-logo img {
+        width: 60px;
+        height: 58px;
+        margin-right: 0px;
+    }
+
+    .footer-logo h3 {
+        font-size: 35.73px;
+    }
+
+    .footer-des {
+        font-size: 16px;
+        margin-top: -20px;
+    }
+
+    .footer-links {
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: -20px;
+    }
+
 }
